@@ -6,7 +6,7 @@ function ransomNote(noteString, magazineString){
 
   magazineArr.forEach(word =>{ 
   if(!magazineObj[word])
-    magazineObj = 0;
+    magazineObj[word] = 0;
     magazineObj[word]++;
   });
 
